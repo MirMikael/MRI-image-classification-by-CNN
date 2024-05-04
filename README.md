@@ -1,0 +1,4 @@
+In this code, a convolutional neural network (CNN) is constructed utilizing the TensorFlow library. The purpose of this neural network is to categorize brain MRI scans of Alzheimer’s disease (AD) patients, distinguishing between AD and Mild Cognitive Impairment (MCI).<br>
+The data were first called from Kaggle, and then data augmentation was performed on them with the techniques described in <a href="https://doi.org/10.1007/s00521-021-05799-w" target="_blank">"A CNN based framework for classification of Alzheimer’s disease"</a>to augmentation the volume of data to 5 times. Then, images have been classified using these data and the network described in this article. In other words, this code is a simulation of parts of the article.<br>
+TensorFlow/Keras and scikit-learn libraries are used in this code.<br>
+<strong>For quastions:</strong> <a href="https://mirmikael.github.io/" target="_blank">MirMikael.github.io</a>
